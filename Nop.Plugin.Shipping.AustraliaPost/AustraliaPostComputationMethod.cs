@@ -369,18 +369,16 @@ namespace Nop.Plugin.Shipping.AustraliaPost
 
             await base.UninstallAsync();
         }
-        #endregion
-
-        #region Properties
 
         /// <summary>
         /// Gets a shipment tracker
         /// </summary>
-        public IShipmentTracker ShipmentTracker
+        public Task<IShipmentTracker> GetShipmentTrackerAsync()
         {
-            get { return null; }
+            return null;
         }
 
         #endregion
+
     }
 }
