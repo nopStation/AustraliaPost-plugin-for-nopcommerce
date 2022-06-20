@@ -375,7 +375,7 @@ namespace Nop.Plugin.Shipping.AustraliaPost
         /// </summary>
         public Task<IShipmentTracker> GetShipmentTrackerAsync()
         {
-            return null;
+            return Task.FromResult<IShipmentTracker>(null);
         }
 
         #endregion
