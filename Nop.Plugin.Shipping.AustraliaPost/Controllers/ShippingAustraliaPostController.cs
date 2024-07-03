@@ -12,7 +12,7 @@ using Nop.Web.Framework.Mvc.Filters;
 namespace Nop.Plugin.Shipping.AustraliaPost.Controllers
 {
     [AuthorizeAdmin]
-    [Area(AreaNames.Admin)]
+    [Area(AreaNames.ADMIN)]
     public class ShippingAustraliaPostController : BasePluginController
     {
         #region Fields

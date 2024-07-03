@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.IO;
+﻿using System.Globalization;
 using System.Net;
 using System.Text;
 using Newtonsoft.Json.Linq;
@@ -14,7 +11,6 @@ using Nop.Services.Directory;
 using Nop.Services.Localization;
 using Nop.Services.Shipping;
 using Nop.Services.Shipping.Tracking;
-using System.Threading.Tasks;
 
 namespace Nop.Plugin.Shipping.AustraliaPost
 {
